@@ -1,13 +1,26 @@
-import Nav from './Components/Nav/Nav';
+import Nav from './Components/NavModal/Nav';
+
+
 import './App.css';
-import Modal from './Components/Nav/Modal';
+
+import Img from './Components/Heading/Img';
+import Card from './Components/Heading/Card/Card';
+import Wrapper from './Components/foods/Wrapper';
+import CartProvider from './Components/store/CartProvider';
+import { useContext } from 'react';
 
 function App() {
+  // const ctx = useContext(Info)
   return (
-    <div className="App">
-  
+<CartProvider>
     <Nav></Nav>
-    </div>
+    <Img/>
+    <Card/>
+    <Wrapper/>
+    </CartProvider>
+  
+  
+  
   );
 }
 

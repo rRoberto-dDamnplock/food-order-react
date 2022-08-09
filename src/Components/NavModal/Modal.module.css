@@ -4,10 +4,10 @@
       width: 60%;
       top: 10vh;
       left: 20%;
-     
+      border-radius: 20px;
       background-color: white;
       z-index: 100;
-      overflow: hidden;
+      overflow: scroll;
 }
       .backdrop {
             position: fixed;
@@ -21,15 +21,16 @@
 
           .heading {
             display: flex;
-            background-color: aqua;
+           border-bottom: 1px solid black;
             justify-content: space-around;
             margin: 1rem 0 ;
+            border-bottom: 1x solid black
           }
           .btnSection {
             margin: 3rem 0 ;
      
             display: flex;
-            background-color: ;
+      
             justify-content: end;
           }
 

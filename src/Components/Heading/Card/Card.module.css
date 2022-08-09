@@ -1,0 +1,21 @@
+.card {
+      position: absolute;
+      height: 12rem;
+      width: 60%;
+      background-color: #66BFBF;
+      z-index: 5;
+      left: 20%;
+      top: 50%;
+      border-radius:20px ;
+}
+
+      
+
+.card > h1{
+      color: white;
+}
+
+ p{
+      color: white;
+ }
+

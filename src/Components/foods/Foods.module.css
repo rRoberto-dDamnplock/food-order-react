@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+}
+
+
+
+.foods {
+      display: flex;
+      outline: 1px black solid;
+      margin: 1rem 2rem;
+      justify-content: space-around;
+}
+
+.about > p {
+      color: grey;
+      margin: 0%;
+      font-style: italic;
+}
+.about > h3 {
+      margin: 0;
+
+}
+
+.about {
+      display: flex;
+      flex-direction: column;
+}
+
+
+.amount {
+      margin-left: 15rem;
+      display: flex;
+      flex-direction: column;
+}
+
+.btnAdd {
+      width: 5rem;
+      height: 2rem;
+      margin: 10px auto 10px auto; 
+}

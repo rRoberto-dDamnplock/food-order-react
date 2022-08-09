@@ -1,0 +1,20 @@
+.wrapp {
+      display: flex;
+      background-color:  #EAF6F6 ;
+justify-content: center;
+      width: 105%;
+      height: 800px;
+      margin:-2rem auto auto auto;
+      
+      transform: rotate(-2deg);
+}
+.box {
+   display: block;
+background-color: white;
+margin: 9rem auto 9rem auto;
+width: 80%;
+transform: rotate(2deg);
+border-radius:20px ;
+margin-left:5% ;
+}
+
